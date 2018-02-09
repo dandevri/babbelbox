@@ -5,3 +5,7 @@ body {
   font-size: sans-serif;
   color: #fff;
 }
+
+.active {
+  background-color: #fff;
+}
