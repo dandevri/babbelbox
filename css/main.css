@@ -1,5 +1,5 @@
 ---
 ---
 
-{% include css/config.css %}
-{% include css/nav.css %}
+{% include_relative config.css %}
+{% include_relative nav.css %}
