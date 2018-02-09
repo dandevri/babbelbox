@@ -6,6 +6,7 @@ layout: default
 <ul>
   {% for posts in site.posts %}
   <li>
+    <img src="{{site.baseurl}}/img/{{posts.cover}}">
     <a href="{{site.baseurl}}{{posts.url}}">{{posts.title}}</a>
     <p>{{posts.subtitle}}</p>
   </li>
