@@ -3,3 +3,11 @@ layout: default
 ---
 
 <h2>De meest geweldige podcast</h2>
+<ul>
+  {% for posts in site.posts %}
+  <li>
+    <a href="">{{posts.title}}</a>
+    <p>{{posts.subtitle}}</p>
+  </li>
+  {% endfor %}
+</ul>
