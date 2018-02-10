@@ -4,6 +4,8 @@
 /* Configuration */
 {% include_relative config.css %}
 {% include_relative layout.css %}
+{% include_relative typography.css %}
+{% include_relative animation.css %}
 
 /* Components */
 {% include_relative /components/header.css %}

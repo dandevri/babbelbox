@@ -10,6 +10,8 @@ body {
   background-color: var(--primary-color);
   color: var(--text-color);
   font-family: var(--font-stack);
+  padding: 2em;
+  animation: tada 300ms forwards;
 }
 
 ul {

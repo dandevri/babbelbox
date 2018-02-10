@@ -2,7 +2,7 @@ article {
   display: flex;
   background: var(--background-color);
   color: var(--primary-color);
-  width: 50%;
+  width: 100%;
   position: relative
 }
 
