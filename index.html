@@ -3,12 +3,16 @@ layout: default
 meta: Description of the page
 ---
 
-<ul>
-  {% for posts in site.posts %}
-  <li>
-    <img src="{{site.baseurl}}/img/{{posts.cover}}">
-    <a href="{{site.baseurl}}{{posts.url}}">{{posts.title}}</a>
-    <p>{{posts.subtitle}}</p>
-  </li>
-  {% endfor %}
-</ul>
+{% for posts in site.posts %}
+  <article>
+    <img src="{{posts.cover}}">
+      <header>
+      <span>{{posts.title}}</span>
+      <h2>{{posts.subtitle}}</h2>
+    </header>
+    <footer>
+      <span>{{posts.length}}</span>
+      <time datetime="{{posts.creation}}">{{posts.creation}}</time>
+    </footer>
+  </article>
+{% endfor %}

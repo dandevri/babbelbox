@@ -1,0 +1,25 @@
+article {
+  display: flex;
+  background: var(--background-color);
+  color: var(--primary-color);
+  width: 50%;
+  position: relative
+}
+
+article img {
+  width: 10em;
+}
+
+article header {
+  padding: 2em;
+}
+
+article footer {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
+
+article footer > *:not(:last-child) {
+  margin-right: 1em;
+}

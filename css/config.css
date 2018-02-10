@@ -1,5 +1,6 @@
 :root {
   --primary-color: #5E59D6;
+  --background-color: #fff;
   --primary-gradient-color: linear-gradient(-180deg, #D9E7FF 0%, #F9F9FE 100%);
   --text-color: #fff;
   --font-stack: sans-serif;
@@ -11,11 +12,10 @@ body {
   font-family: var(--font-stack);
 }
 
-header ul {
+ul {
   list-style-type: none;
 }
 
 a {
   text-decoration: none;
-  color: var(--text-color);
 }
