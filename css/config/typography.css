@@ -14,6 +14,10 @@ header p {
   line-height: 1.5;
 }
 
+footer span, footer time {
+  font-family: monospace;
+}
+
 @media all and (orientation: portrait) {
   header p,
   header h2 {
