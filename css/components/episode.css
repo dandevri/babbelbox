@@ -1,25 +1,33 @@
 article {
   display: flex;
+  align-items: center;
   background: var(--background-color);
   color: var(--primary-color);
-  width: 50%;
-  position: relative
+  width: 100%;
+  height: 15vh;
+  position: relative;
+  transition: transform 250ms;
+}
+
+.wrapper {
+  padding: 1em;
+}
+
+@media all and (orientation: landscape) {
+  article {
+    width: 60%;
+  }
+}
+
+article:hover {
+  transform: scale(1.02);
 }
 
 article img {
-  width: 10em;
-}
-
-article header {
-  padding: 2em;
-}
-
-article footer {
-  position: absolute;
-  bottom: 1em;
-  right: 1em;
+  height: 100%;
 }
 
 article footer > *:not(:last-child) {
   margin-right: 1em;
 }
+

@@ -6,3 +6,9 @@ body {
 section {
   margin-top: 3em;
 }
+
+@media all and (orientation: portrait) {
+  body {
+    max-width: 90%;
+  }
+}

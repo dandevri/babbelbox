@@ -1,8 +1,22 @@
 h1 {
   font-size: 10vw;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5vw;
+  margin: 0;
+  line-height: 1.5;
 }
 
 header p {
   font-size: 2vw;
   line-height: 1.5;
+}
+
+@media all and (orientation: portrait) {
+  header p,
+  header h2 {
+    font-size: 4vw;
+  }
 }

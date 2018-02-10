@@ -7,14 +7,16 @@ meta: Description of the page
   {% for posts in site.posts %}
     <article>
       <img src="{{posts.cover}}">
+      <div class="wrapper">
         <header>
-        <span>{{posts.title}}</span>
-        <h2>{{posts.subtitle}}</h2>
-      </header>
-      <footer>
-        <span>{{posts.length}}</span>
-        <time datetime="{{posts.creation}}">{{posts.creation}}</time>
-      </footer>
+          <span>{{posts.title}}</span>
+          <h2>{{posts.subtitle}}</h2>
+        </header>
+        <footer>
+          <span>{{posts.length}}</span>
+          <time datetime="{{posts.creation}}">{{posts.creation}}</time>
+        </footer>
+      </div>
     </article>
   {% endfor %}
 </section>
