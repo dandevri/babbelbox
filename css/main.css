@@ -1,5 +1,9 @@
 ---
 ---
 
+/* Configuration */
 {% include_relative config.css %}
-{% include_relative nav.css %}
+{% include_relative layout.css %}
+
+/* Components */
+{% include_relative /components/header.css %}

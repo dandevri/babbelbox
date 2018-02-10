@@ -1,0 +1,12 @@
+header h1 {
+  font-size: 8em;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header ul li:not(:last-child) {
+  margin-right: 2em;
+}

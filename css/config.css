@@ -1,7 +1,21 @@
+:root {
+  --primary-color: #5E59D6;
+  --primary-gradient-color: linear-gradient(-180deg, #D9E7FF 0%, #F9F9FE 100%);
+  --text-color: #fff;
+  --font-stack: sans-serif;
+}
+
 body {
-  background-color: #5C56D6;
-  margin: 0;
-  padding: 0;
-  font-size: sans-serif;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-family: var(--font-stack);
+}
+
+header ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
 }
