@@ -2,10 +2,10 @@
 ---
 
 /* Configuration */
-{% include_relative config.css %}
-{% include_relative layout.css %}
-{% include_relative typography.css %}
-{% include_relative animation.css %}
+{% include_relative /config/config.css %}
+{% include_relative /config/layout.css %}
+{% include_relative /config/typography.css %}
+{% include_relative /config/animation.css %}
 
 /* Components */
 {% include_relative /components/header.css %}
