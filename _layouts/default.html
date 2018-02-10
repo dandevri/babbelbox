@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="{{page.meta}}">
-  <title>The Babbelbox {% if page.title %}- {{page.title}}{%endif%}</title>
-  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css">
+  {% include partials/meta.html %}
+  {% include partials/og.html %}
+  {% include partials/favicon.html %}
 </head>
 <body>
   <header>
