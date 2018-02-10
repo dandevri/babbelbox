@@ -10,3 +10,4 @@
 /* Components */
 {% include_relative /components/header.css %}
 {% include_relative /components/episode.css %}
+{% include_relative /components/badges.css %}
