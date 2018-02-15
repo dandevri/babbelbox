@@ -1,4 +1,4 @@
-a {
+header a {
   background-image: var(--primary-gradient-color);
   background-repeat: no-repeat;
   background-size: 100% 5%;
@@ -7,7 +7,7 @@ a {
   padding: 0.4em 0.2em;
 }
 
-a:hover {
+header a:hover {
   background-size: 100% 100%;
   color: var(--primary-color);
 }
