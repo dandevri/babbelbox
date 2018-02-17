@@ -1,2 +1,3 @@
 baseurl: /babbelbox
 exclude: ['README.md', 'LICENSE']
+permalink: pretty
