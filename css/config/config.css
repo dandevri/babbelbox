@@ -25,6 +25,14 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: var(--text-color);
+}
+
+section a {
+  text-decoration-style: wavy;
+}
+
 section ul li {
   line-height: 2;
 }
