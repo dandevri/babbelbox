@@ -17,10 +17,14 @@ body {
   height: 100vh;
 }
 
-ul {
+header ul {
   list-style-type: none;
 }
 
 a {
   text-decoration: none;
+}
+
+section ul li {
+  line-height: 2;
 }
