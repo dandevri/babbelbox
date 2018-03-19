@@ -27,11 +27,5 @@ https://github.com/dandevri/babbelbox.git
 ## :page_facing_up: Contributing
 To see a list of everybody who participated go to the [Contributors](https://github.com/rijkvanzanten/robat/graphs/contributors) page.
 
-
-## Hosts
-![Rijk van Zanten](https://avatars0.githubusercontent.com/u/9141017?v=3&s=460) | ![Danny de Vries](https://avatars1.githubusercontent.com/u/22084444?v=3&s=460) |
----|---
-[Rijk van Zanten](https://github.com/rijkvanzanten) | [Danny de Vries](https://github.com/dandevri)
-
 ## 📃 License
 This project is licensed under the [MIT](LICENSE) License
