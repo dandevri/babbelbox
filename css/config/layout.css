@@ -11,6 +11,10 @@ section {
   body {
     max-width: 90%;
   }
+
+  p {
+    width: 100%;
+  }
 }
 
 

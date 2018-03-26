@@ -18,7 +18,7 @@ header nav a {
 
 header p {
   width: 70%;
-  margin: 1em 0;
+  margin: 2em 0;
 }
 
 @media all and (orientation: portrait) {
