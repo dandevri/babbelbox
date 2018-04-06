@@ -26,3 +26,7 @@ a {
 section ul li {
   line-height: 2;
 }
+
+strong {
+  font-weight: 700;
+}

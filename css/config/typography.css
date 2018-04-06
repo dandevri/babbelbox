@@ -22,18 +22,10 @@ header p {
   line-height: 1.5;
 }
 
-.button {
-  font-size: 1.2vw;
-}
-
 p {
   font-size: 1.5vw;
   line-height: 2;
   font-weight: 300;
-}
-
-footer span, footer time {
-  font-family: monospace;
 }
 
 @media all and (orientation: portrait) {
