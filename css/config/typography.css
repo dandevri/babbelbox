@@ -1,23 +1,35 @@
 h1 {
-  font-size: 8vw;
+  font-size: 12vw;
+  font-weight: 700;
   margin: 0;
+  background: var(--primary-gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
   margin: 0;
   line-height: 1.5;
+  font-weight: 200;
+  font-size: 3vw;
+  background: var(--primary-gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 header p {
-  font-size: 2vw;
+  font-size: 3vw;
+  line-height: 1.5;
 }
 
-.fab {
+.button {
   font-size: 1.2vw;
 }
 
 p {
-  line-height: 1.5;
+  font-size: 1.5vw;
+  line-height: 2;
+  font-weight: 300;
 }
 
 footer span, footer time {

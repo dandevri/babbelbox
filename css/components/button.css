@@ -1,0 +1,16 @@
+.button {
+  background: var(--primary-gradient-color);
+  transition: all 250ms;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  text-align: center;
+  color: #fff;
+}
+
+.button:hover {
+  letter-spacing: 14px;
+}

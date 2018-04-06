@@ -1,13 +1,13 @@
 article {
   display: flex;
   align-items: center;
-  background: var(--background-color);
+  border: 2px solid var(--primary-color);
   color: var(--primary-color);
   width: 100%;
-  height: 15vh;
+  height: 20vh;
   position: relative;
   transition: transform 250ms;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 .wrapper {
@@ -16,7 +16,7 @@ article {
 
 @media all and (orientation: landscape) {
   article {
-    width: 60%;
+    width: 80%;
   }
 }
 

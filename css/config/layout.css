@@ -3,6 +3,10 @@ body {
   margin: 0 auto;
 }
 
+header {
+  margin-top: 17vh;
+}
+
 section {
   margin-top: 3em;
 }
@@ -20,4 +24,8 @@ section {
 
 p {
   width: 70%;
+}
+
+.wrapper header {
+  margin-top: 0;
 }

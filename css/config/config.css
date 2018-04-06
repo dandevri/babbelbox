@@ -1,17 +1,14 @@
 :root {
-  --primary-color: #5E59D6;
-  --background-color: #fff;
-  --primary-gradient-color: linear-gradient(-180deg, #D9E7FF 0%, #F9F9FE 100%);
-  --text-color: #fff;
-  --font-stack: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+  --primary-color: #003DFF;
+  --background-color: linear-gradient(to top, #dfe9f3 0%, white 100%);;
+  --primary-gradient-color: -webkit-linear-gradient(-180deg, #0082FF 20%, #1600FF 100%);
+  --font-stack: 'IBM Plex Mono', monospace;;
 }
 
 body {
-  background: url({{site.baseurl}}/img/background.jpg) fixed, var(--primary-color);
-  background-position: bottom right;
+  background: fixed var(--background-color);
   background-repeat: no-repeat;
-  background-size: 70%;
-  color: var(--text-color);
+  color: var(--primary-color);
   font-family: var(--font-stack);
   padding: 2em;
   height: 100vh;
@@ -23,16 +20,7 @@ header ul {
 
 a {
   text-decoration: none;
-  color: var(--text-color);
-}
-
-a:visited {
-  color: var(--text-color);
-}
-
-section a {
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
+  color: var(--primary-color);
 }
 
 section ul li {
