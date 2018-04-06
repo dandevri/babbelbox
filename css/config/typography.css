@@ -12,6 +12,10 @@ header p {
   font-size: 2vw;
 }
 
+.fab {
+  font-size: 1.2vw;
+}
+
 p {
   line-height: 1.5;
 }

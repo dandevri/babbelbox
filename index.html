@@ -3,8 +3,11 @@ layout: default
 meta: Description of the page
 ---
 
-<section>
+<section id="episodes">
   {% for posts in site.posts %}
     {% include partials/episode.html %}
   {% endfor %}
+</section>
+<section id="about">
+  {% include about.html %}
 </section>
