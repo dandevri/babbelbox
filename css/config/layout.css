@@ -40,4 +40,8 @@ p {
   article img {
     display: none;
   }
+
+  #about {
+    margin-bottom: 15vh;
+  }
 }
