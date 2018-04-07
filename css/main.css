@@ -3,7 +3,6 @@
 
 /* Configuration */
 {% include_relative /config/config.css %}
-{% include_relative /config/layout.css %}
 {% include_relative /config/typography.css %}
 {% include_relative /config/animation.css %}
 
@@ -12,3 +11,4 @@
 {% include_relative /components/button.css %}
 {% include_relative /components/episode.css %}
 {% include_relative /components/list.css %}
+{% include_relative /config/layout.css %}

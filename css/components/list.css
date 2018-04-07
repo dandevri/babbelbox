@@ -1,5 +1,6 @@
 .badges li {
   list-style-type: none;
+  font-weight: 700;
 }
 
 .badges {

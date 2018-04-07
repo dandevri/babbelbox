@@ -1,5 +1,11 @@
+h1, h2, h3, h4 {
+  margin: 2em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
 h1 {
-  font-size: 12vw;
+  font-size: 10vw;
   font-weight: 700;
   margin: 0;
   background: var(--primary-gradient-color);
@@ -7,33 +13,43 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
+
 h2 {
-  margin: 0;
+  margin-top: 10vh;
   line-height: 1.5;
   font-weight: 200;
-  font-size: 3vw;
+  font-size: 2.827em;
   background: var(--primary-gradient-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 header p {
-  font-size: 3vw;
+  font-size: 2.5em;
   line-height: 1.5;
 }
 
 p {
-  font-size: 1.5vw;
+  font-size: 1.5em;
   line-height: 2;
   font-weight: 300;
 }
 
 @media all and (orientation: portrait) {
-  header p,
-  header h2 {
-    font-size: 4vw;
+  header p {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 2em;
   }
   p {
-    font-size: 3vw;
+    font-size: 1em;
+  }
+  li {
+    font-size: 1.5em;
+  }
+
+  header h2 {
+    font-size: 1.5em;
   }
 }

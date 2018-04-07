@@ -28,4 +28,16 @@ p {
   p {
     width: 100%;
   }
+
+  .badges {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .badges span {
+    display: none;
+  }
+
+  article img {
+    display: none;
+  }
 }
