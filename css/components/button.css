@@ -15,3 +15,16 @@
 .button:hover {
   letter-spacing: 14px;
 }
+
+@media all and (orientation: portrait) {
+  .button {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    font-size: 3vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

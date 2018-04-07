@@ -33,4 +33,7 @@ p {
   header h2 {
     font-size: 4vw;
   }
+  p {
+    font-size: 3vw;
+  }
 }
