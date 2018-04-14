@@ -1,5 +1,5 @@
 .button {
-  background: var(--primary-gradient-color);
+  background: transparent;
   transition: all 250ms;
   position: fixed;
   bottom: 1em;
@@ -8,16 +8,16 @@
   text-transform: uppercase;
   letter-spacing: 7px;
   text-align: center;
-  color: #fff;
+  color: var(--primary-color);
+  box-shadow: none;
+  border: 2px solid var(--primary-color);
   font-size: 1.2vw;
-}
-
-.button:hover {
-  letter-spacing: 14px;
 }
 
 @media all and (orientation: portrait) {
   .button {
+    background: var(--primary-color);
+    color: #fff;
     bottom: 0;
     right: 0;
     width: 100%;

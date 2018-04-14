@@ -11,13 +11,25 @@ section {
   margin-top: 3em;
 }
 
+details {
+  margin-bottom: 2em;
+}
+
 
 p {
   width: 70%;
 }
 
+#about h2 {
+  margin-top: 10vh;
+}
+
 .wrapper header {
   margin-top: 0;
+}
+
+#about {
+  margin-bottom: 15vh;
 }
 
 @media all and (orientation: portrait) {

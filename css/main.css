@@ -11,4 +11,5 @@
 {% include_relative /components/button.css %}
 {% include_relative /components/episode.css %}
 {% include_relative /components/list.css %}
+{% include_relative /components/link.css %}
 {% include_relative /config/layout.css %}
