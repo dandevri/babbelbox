@@ -48,7 +48,8 @@ summary {
   p {
     font-size: 1em;
   }
-  li {
+
+  .badges li {
     font-size: 1.5em;
   }
 
